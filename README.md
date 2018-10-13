@@ -35,6 +35,9 @@ NAT Masquerade
 # hostapd  
 
 
+# wpa_supplicant  
+
+
 # gkismet / giskismet  
 https://www.kismetwireless.net/  
 https://github.com/internetofdongs/IoD-Screwdriver  
