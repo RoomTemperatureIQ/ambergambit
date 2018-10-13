@@ -8,6 +8,7 @@ Project: Nemesis - Rabid Wireless Access Point that attacks malicious clients co
 * wpa_supplicant - use WEP encryption, expect only malicious clients  
 * udev - MAC Spoofing  
 * gkismet / giskismet - Wireless scanner w/GPS  
+* gpsd - gps daemon  
 * sql db - Store kismet data  
 * ettercap - Man-in-the-Middle Framework: ARP Poisoning, ICMP Redirection, DHCP Spoofing, Port Stealing, Characters Injection, SSH1 MITM  
 * wireshark / tshark - Network Sniff Layer 2 (Data Link Layer) and Layer 3 (Network Layer)  
@@ -45,6 +46,9 @@ NAT Masquerade
 # gkismet / giskismet  
 https://www.kismetwireless.net/  
 https://github.com/internetofdongs/IoD-Screwdriver  
+
+
+# gpsd  
 
 
 # sqlite3  
