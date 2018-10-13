@@ -15,6 +15,8 @@ Project: Nemesis - Rabid Wireless Access Point that attacks malicious clients co
 * msfvenom -  
 * metasploit -  
 * evilginx - Man-in-the-Middle Session Hijacking Framework  
+* snort - IPS / IDS  
+* ntopng - Network Statistics (what are these malicious clients trying to do?)  
 
 # sysctl  
 https://wiki.archlinux.org/index.php/sysctl#TCP.2FIP_stack_hardening  
@@ -71,4 +73,10 @@ https://wiki.archlinux.org/index.php/honeyd
 
 # evilginx  
 https://github.com/kgretzky/evilginx2  
+
+
+# snort - IPS / IDS
+
+
+# ntopng  
 
