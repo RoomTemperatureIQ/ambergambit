@@ -12,7 +12,8 @@ Project: Nemesis - Rabid Wireless Access Point that attacks malicious clients co
 * ettercap - Man-in-the-Middle Framework
 * wireshark / tshark - Network Sniff Layer 2 (Data Link Layer) and Layer 3 (Network Layer)  
 * honeyd - Virtual Host Honeypot  
-
+* msfvenom -  
+* metasploit -  
 
 # sysctl  
 https://wiki.archlinux.org/index.php/sysctl#TCP.2FIP_stack_hardening  
@@ -59,4 +60,9 @@ https://medium.com/secjuice/man-in-the-middle-attack-using-arp-spoofing-fa13af4f
 # honeyd  
 https://wiki.archlinux.org/index.php/honeyd  
 
+
+# msfvenom  
+
+
+# metasploit  
 
