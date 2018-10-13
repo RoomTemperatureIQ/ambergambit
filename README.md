@@ -1,12 +1,13 @@
 # ambergambit  
 Project: Nemesis  
-* sysctl - TCP/IP stack hardening)  
-* iptables - 
-* ebtables -  
+* sysctl - TCP/IP stack hardening  
+* arpwatch - Monitor static ARP entries  
+* iptables - NAT Masquerade, ARP broadcasts, DNS leaks  
+* ebtables - Filter bridged connections  
 * hostapd - Wireless Access Point  
 * udev - MAC Spoofing  
 * gkismet / giskismet - Wireless scanner w/GPS  
-* sql db - store kismet data
+* sql db - Store kismet data
 
 
 # sysctl  
