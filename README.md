@@ -9,11 +9,12 @@ Project: Nemesis - Rabid Wireless Access Point that attacks malicious clients co
 * udev - MAC Spoofing  
 * gkismet / giskismet - Wireless scanner w/GPS  
 * sql db - Store kismet data  
-* ettercap - Man-in-the-Middle Framework
+* ettercap - Man-in-the-Middle Framework  
 * wireshark / tshark - Network Sniff Layer 2 (Data Link Layer) and Layer 3 (Network Layer)  
 * honeyd - Virtual Host Honeypot  
 * msfvenom -  
 * metasploit -  
+* evilginx - Man-in-the-Middle Session Hijacking Framework  
 
 # sysctl  
 https://wiki.archlinux.org/index.php/sysctl#TCP.2FIP_stack_hardening  
@@ -65,4 +66,8 @@ https://wiki.archlinux.org/index.php/honeyd
 
 
 # metasploit  
+
+
+# evilginx  
+https://github.com/kgretzky/evilginx2  
 
