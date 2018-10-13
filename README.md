@@ -1,5 +1,5 @@
 # ambergambit  
-Project: Nemesis  
+Project: Nemesis - Rabid Wireless Access Point that attacks malicious clients connecting to it (they have to break WEP to connect)
 * sysctl - TCP/IP stack hardening  
 * arpwatch - Monitor static ARP entries  
 * iptables - NAT Masquerade, ARP broadcasts, DNS leaks  
