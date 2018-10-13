@@ -7,8 +7,9 @@ Project: Nemesis
 * hostapd - Wireless Access Point  
 * udev - MAC Spoofing  
 * gkismet / giskismet - Wireless scanner w/GPS  
-* sql db - Store kismet data
-
+* sql db - Store kismet data  
+* ettercap - Man-in-the-Middle Framework
+* wireshark / tshark - Network Sniff Layer 2 (Data Link Layer) and Layer 3 (Network Layer)  
 
 # sysctl  
 https://wiki.archlinux.org/index.php/sysctl#TCP.2FIP_stack_hardening  
@@ -40,5 +41,12 @@ https://github.com/internetofdongs/IoD-Screwdriver
 
 
 # google earth  
+
+
+# wireshark / tshark  
+
+
+# ettercap - ARP Poisoning  
+https://medium.com/secjuice/man-in-the-middle-attack-using-arp-spoofing-fa13af4f4633  
 
 
