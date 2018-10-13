@@ -49,6 +49,7 @@ https://github.com/internetofdongs/IoD-Screwdriver
 
 
 # gpsd  
+https://piratefache.ch/mapping-wifi-networks-on-google-maps/  
 
 
 # sqlite3  
