@@ -19,6 +19,7 @@ Project: NEMESIS - Rabid Wireless Access Point that attacks malicious clients co
 * evilginx - Man-in-the-Middle Session Hijacking Framework  
 * snort - IPS / IDS  
 * ntopng - Network Statistics (what are these malicious clients trying to do?)  
+* Captive Portal - "Free WiFi" operation, WEP disabled  
 
 # sysctl  
 https://wiki.archlinux.org/index.php/sysctl#TCP.2FIP_stack_hardening  
@@ -106,4 +107,7 @@ https://github.com/kgretzky/evilginx2
 
 
 # ntopng  
+
+# Captive Portal  
+https://en.wikipedia.org/wiki/Captive_portal  
 
