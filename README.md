@@ -1,10 +1,11 @@
 # ambergambit  
-Project: Nemesis - Rabid Wireless Access Point that attacks malicious clients connecting to it (they have to break WEP to connect)
+Project: NEMESIS - Rabid Wireless Access Point that attacks malicious clients connecting to it (they have to break WEP to connect)
 * sysctl - TCP/IP stack hardening  
 * arpwatch - Monitor static ARP entries  
 * iptables - NAT Masquerade, ARP broadcasts, DNS leaks  
 * ebtables - Filter bridged connections  
 * hostapd - Wireless Access Point  
+* hostapd_cli - 
 * wpa_supplicant - use WEP encryption, expect only malicious clients  
 * udev - MAC Spoofing  
 * gkismet / giskismet - Wireless scanner w/GPS  
@@ -38,6 +39,25 @@ NAT Masquerade
 
 
 # hostapd  
+
+
+# hostapd_cli - if client CONNECTED then trigger NEMESIS.sh  
+https://superuser.com/questions/1071354/hostapd-execute-a-command-when-there-is-new-connection-established  
+
+```
+#!/bin/sh
+logger -t $0 "hostapd event received $1 $2 $3"
+
+if [[ $2 == "AP-STA-CONNECTED" ]]
+then
+  echo "someone has connected with mac id $3 on $1"
+fi
+
+if [[ $2 == "AP-STA-DISCONNECTED" ]]
+then
+  echo "someone has disconnected with mac id $3 on $1"
+fi
+```
 
 
 # wpa_supplicant  
