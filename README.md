@@ -44,7 +44,7 @@ NAT Masquerade
 # hostapd_cli - if client CONNECTED then trigger NEMESIS.sh  
 https://superuser.com/questions/1071354/hostapd-execute-a-command-when-there-is-new-connection-established  
 
-`hostapd_cli -a /bin/hostapd_eventscript -B`  
+`hostapd_cli -a/bin/hostapd_eventscript -B`  
 
 ```
 #!/bin/sh
