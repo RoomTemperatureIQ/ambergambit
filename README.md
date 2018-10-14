@@ -5,7 +5,7 @@ Project: NEMESIS - Rabid Wireless Access Point that attacks malicious clients co
 * iptables - NAT Masquerade, ARP broadcasts, DNS leaks  
 * ebtables - Filter bridged connections  
 * hostapd - Wireless Access Point  
-* hostapd_cli - 
+* hostapd_cli - setup script listener hook for client authenticated  
 * wpa_supplicant - use WEP encryption, expect only malicious clients  
 * udev - MAC Spoofing  
 * gkismet / giskismet - Wireless scanner w/GPS  
